@@ -1,13 +1,11 @@
 # CostDCNet
 
-This repository contains the accompanying code for [CostDCNet: Cost Volume based Depth Completion for a Single RGB-D Image, ECCV'21](paper is comming soon)
-
-| [Paper](https://arxiv.org/pdf/2108.09000.pdf) | [Video](https://youtu.be/Raq5axLdG6E) |
+This repository contains the accompanying code for "CostDCNet: Cost Volume based Depth Completion for a Single RGB-D Image, ECCV'22"
 
 ## Overview
 
 Successful depth completion from a single RGB-D image requires both extracting plentiful 2D and 3D features and merging these heterogeneous features appropriately. 
-We propose a novel depth completion framework, \emph{CostDCNet}, based on the cost volume-based depth estimation approach that has been successfully employed for multi-view stereo (MVS). 
+We propose a novel depth completion framework, CostDCNet, based on the cost volume-based depth estimation approach that has been successfully employed for multi-view stereo (MVS). 
 The key to high-quality depth map estimation in the approach is constructing an accurate cost volume. To produce a quality cost volume tailored to single-view depth completion, we present a simple but effective architecture that can fully exploit the 3D information, three options to make an RGB-D feature volume, and a per-plane pixel shuffle for efficient volume upsampling.
 Our framework consists of lightweight (~1.8M parameters) deep neural networks, running in real time (~30ms). Nevertheless, thanks to our simple but effective design, CostDCNet demonstrates depth completion results comparable to or better than the state-of-the-art (SOTA) methods.
 
@@ -21,7 +19,7 @@ Our framework consists of lightweight (~1.8M parameters) deep neural networks, r
 - python 3.8 or higher
 
 
-## Environment Setup (Conda)
+### Environment Setup (Anaconda)
 We recommend using Anaconda
 ```
 conda create -n costDCNet python==3.8.12
@@ -40,7 +38,7 @@ Any exemptions to these terms requires a license from the Pohang University of S
 ## Useful Links
 * [POSTECH CG Lab.](http://cg.postech.ac.kr/)
 
-## Citing Deep Virtual Markers
+## Citing CostDCNet
 ```
 @inproceedings{kam2022costdcnet,
   title={CostDCNet: Cost Volume based Depth Completion for a Single RGB-D Image},
@@ -55,5 +53,5 @@ Any exemptions to these terms requires a license from the Pohang University of S
 **NOTE** : Our implementation is based on the repositories as:
 - [Minkowski Engine, a neural network library for sparse tensors](https://github.com/StanfordVL/MinkowskiEngine)
 - [Digging into Self-Supervised Monocular Depth Prediction, ICCV'19](https://github.com/nianticlabs/monodepth2)
-- [Non-Local Spatial Propagation Network for Depth Completion, ECCV'20](https://github.com/zzangjinsun/NLSPN_ECCV20)
+- [Non-Local Spatial Propagation Network for Depth Completion, ECCV'20](https://github.com/zzangjinsun/NLSPN_ECCV20)# CostDCNet
 # CostDCNet
