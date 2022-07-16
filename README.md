@@ -53,5 +53,4 @@ Any exemptions to these terms requires a license from the Pohang University of S
 **NOTE** : Our implementation is based on the repositories as:
 - [Minkowski Engine, a neural network library for sparse tensors](https://github.com/StanfordVL/MinkowskiEngine)
 - [Digging into Self-Supervised Monocular Depth Prediction, ICCV'19](https://github.com/nianticlabs/monodepth2)
-- [Non-Local Spatial Propagation Network for Depth Completion, ECCV'20](https://github.com/zzangjinsun/NLSPN_ECCV20)# CostDCNet
-# CostDCNet
+- [Non-Local Spatial Propagation Network for Depth Completion, ECCV'20](https://github.com/zzangjinsun/NLSPN_ECCV20)
