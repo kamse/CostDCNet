@@ -30,8 +30,7 @@ pip install -U git+https://github.com/NVIDIA/MinkowskiEngine -v --no-deps --inst
 pip install -r requirements.txt
 ```
 
-### Usage
-## Testing (NYUv2)
+### Testing (NYUv2)
 We used preprocessed NYUv2 dataset like [NLSPN](https://github.com/zzangjinsun/NLSPN_ECCV20).
 ```
 python eval_nyu.py --data_path PATH_TO_NYUv2
