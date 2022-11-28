@@ -1,6 +1,6 @@
 # CostDCNet
 
-This repository contains the accompanying code for "CostDCNet: Cost Volume based Depth Completion for a Single RGB-D Image, ECCV'22"
+This repository contains the accompanying code for [CostDCNet: Cost Volume based Depth Completion for a Single RGB-D Image, ECCV'22](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136620248.pdf)
 
 ## Overview
 
