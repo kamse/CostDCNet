@@ -47,10 +47,12 @@ Any exemptions to these terms requires a license from the Pohang University of S
 ## Citing CostDCNet
 ```
 @inproceedings{kam2022costdcnet,
-  title={CostDCNet: Cost Volume based Depth Completion for a Single RGB-D Image},
-  author={Jaewon Kam, Jungeon Kim, Soongjin Kim, Jaesik Park and Seungyong Lee},
-  booktitle={ECCV},
-  year={2022}
+  title={CostDCNet: Cost Volume Based Depth Completion for a Single RGB-D Image},
+  author={Kam, Jaewon and Kim, Jungeon and Kim, Soongjin and Park, Jaesik and Lee, Seungyong},
+  booktitle={Computer Vision--ECCV 2022: 17th European Conference, Tel Aviv, Israel, October 23--27, 2022, Proceedings, Part II},
+  pages={257--274},
+  year={2022},
+  organization={Springer}
 }
 ```
 
